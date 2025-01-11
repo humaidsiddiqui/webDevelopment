@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+        body
+        {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .container
+        {
+           width: 800px;
+           height: 200px;
+           border: 3px solid red;
+           background-color:aquamarine;
+        }
+        .item
+        {
+border: 2px solid grey;
+margin: 12px 3px;
+padding: 12px 3px;
+background-color: beige;
+        }
+        #fruits
+        {
+            clear: both;
+float: left;
+width: 65%;
+        }
+
+        #computers
+        {
+            clear: both;
+         float: left;
+         width: 65%;
+
+        }
+        
+        #stationary
+        {
+            clear: both;
+    float: left;
+    width: 65%;
+}
+        
+
+    </style>
+</head>
+<body>
+    <h3>welcome to food store</h3>
+    <div class="container">
+       <div id="fruits" class="item">
+        <h3>Fruits</h3>
+        <p id="fruitsPara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eos!
+        </p>
+        </div>
+    </div>
+    <div class="container">
+        <div id="computers" class="item">
+         <h3>Computers</h3>
+         <p id="computerPara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, ratione.
+         </p>
+         </div>
+     </div>
+     <div class="container">
+        <div id="stationary" class="item">
+         <h3>stationary</h3>
+         <p id="stationarysPara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita sed similique veniam quod explicabo distinctio!
+         </p>
+         </div>
+     </div>
+</body>
+</html>
